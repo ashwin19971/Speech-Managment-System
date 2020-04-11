@@ -1,0 +1,43 @@
+.header-wrapper {
+  min-height: 70px;
+  background-color: #323754;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 4;
+  input {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    min-height: 36px;
+    border-radius: 20px;
+    border: solid 1px #cecece;
+    outline: none;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: rgba( #000000, 0.7);
+  }
+  button {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 20px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #dd4b39;
+    border: 1px solid #dd4b39;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+    outline: none;
+    transition: all 0.5s;
+    &:hover {
+      background: white;
+      color: #dd4b39;
+    }
+  }
+}

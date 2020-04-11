@@ -5,8 +5,8 @@ import Home from '../modules/Home/pages/HomePage';
 
 export default (
   <div>
-    <Route path={HOME_ROUTE} exact component={Home} />
     <Switch>
+      <Route path={HOME_ROUTE} exact component={Home} />
       <Redirect from={BASE_ROUTE} to={HOME_ROUTE} />
     </Switch>
   </div>
